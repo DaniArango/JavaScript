@@ -17,6 +17,7 @@ console.log(typeof miNumeroFav)
 const musicafavest = 'clasica'
 const templateliteral = `Mi musica favorita para estudiar es la ${musicafavest}`
 console.log(templateliteral)
+console.log(PI.toFixed(2))
 
 //Arrays
 
@@ -88,11 +89,11 @@ const concierto = {
 console.log(concierto.grupos)
 
 const led = {
-    rojo: 210,
-    verde: 113,
-    azul: 60,
+    lampara1: 'rojo',
+    lampara2: 'verde',
+    lampara3: 'azul',
 }
-const rgb = [led.rojo, led.verde, led.azul];
+const rgb = [led.lampara1, led.lampara2, led.lampara3];
 console.log(rgb)
 
 const O_Error = {
@@ -113,4 +114,5 @@ const impresora = {
  
 const nivelesTinta = impresora.tinta
 console.log(nivelesTinta)
+
 
